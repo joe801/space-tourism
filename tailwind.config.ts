@@ -9,10 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'home-desktop': "url('/starter-code/assets/home/background-home-desktop.jpg')",
+        'home-tablet': "url('/starter-code/assets/home/background-home-tablet.jpg')",
       },
+      colors: {
+        'primary': '#0B0D17',
+        'secondary': '#D0D6F9',
+      },
+      fontFamily: {
+        'bellefair': ['Bellefair', 'serif'],
+        'barlow': ['Barlow Condensed', 'sans-serif'],
+      }
     },
   },
   plugins: [],
