@@ -11,6 +11,7 @@ const config: Config = {
       backgroundImage: {
         'home-desktop': "url('/starter-code/assets/home/background-home-desktop.jpg')",
         'home-tablet': "url('/starter-code/assets/home/background-home-tablet.jpg')",
+        'home-mobile': "url('/starter-code/assets/home/background-home-mobile.jpg')",
       },
       colors: {
         'primary': '#0B0D17',
