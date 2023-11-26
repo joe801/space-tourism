@@ -11,7 +11,7 @@ import { useState } from "react";
 
 const Navbar = () => {
   const pathname = usePathname();
-  console.log(pathname);
+  
   const [showMenu, setShowmenu] = useState<boolean>(false);
   const updateShowMenu = () => {
     setShowmenu(!showMenu);
