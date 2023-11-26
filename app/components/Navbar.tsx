@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative w-full pt-8 md:pt-0 lg:pt-8 pl-6 lg:pl-12 bg-transparent text-white font-barlow flex justify-between items-start md:items-center ">
+    <nav className="relative w-full pt-8 md:pt-0 lg:pt-8 pl-6 lg:pl-12 bg-transparent text-white font-barlow flex justify-between items-start md:items-center z-50">
       <Image src={logo} alt="logo" />
       <div
         className={`${
