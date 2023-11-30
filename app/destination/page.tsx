@@ -17,7 +17,7 @@ const Destination = () => {
           PICK YOUR DESTINATION
         </h4>
         <div className=" text-center ">
-          <div className="flex font-barlow text-sm lg:text-base gap-4 md:gap-8 absolute top-[260px] md:top-[490px] left-1/2 lg:left-[790px] lg:top-[100px] transform  -translate-x-1/2 ">
+          <div className="flex font-barlow text-sm lg:text-base gap-4 md:gap-8 absolute top-[260px] md:top-[490px] left-1/2 lg:left-[78%] xl:left-[70%] lg:top-[100px] transform  -translate-x-1/2 ">
             {jsonData.destinations.map((dest, index) => (
               <h4
                 className={` uppercase cursor-pointer ${
