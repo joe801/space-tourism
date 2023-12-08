@@ -21,6 +21,12 @@ const config: Config = {
           "url('/starter-code/assets/destination/background-destination-tablet.jpg')",
         "dest-mobile":
           "url('/starter-code/assets/destination/background-destination-mobile.jpg')",
+        "crew-desktop":
+          "url('/starter-code/assets/crew/background-crew-desktop.jpg')",
+        "crew-tablet":
+          "url('/starter-code/assets/crew/background-crew-tablet.jpg')",
+        "crew-mobile":
+          "url('/starter-code/assets/crew/background-crew-mobile.jpg')",
       },
       colors: {
         primary: "#0B0D17",

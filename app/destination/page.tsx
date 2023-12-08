@@ -9,7 +9,7 @@ import { useState } from "react";
 const Destination = () => {
   const [tabIndex, setTabIndex] = useState<number>(0);
   return (
-    <section className="w-full min-h-screen pb-12 bg-dest-mobile bg-no-repeat bg-center bg-cover text-white">
+    <section className="w-full min-h-screen pb-12 bg-dest-mobile md:bg-dest-tablet lg:bg-dest-desktop bg-no-repeat bg-center bg-cover text-white">
       <Navbar />
       <div className="w-10/12 mx-auto text-center relative">
         <h4 className=" tracking-widest font-barlow my-4 md:mb-8 md:text-start md:text-[20px] lg:tracking-[4.8px]">
