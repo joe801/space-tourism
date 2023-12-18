@@ -11,17 +11,18 @@ const Destination = () => {
   const [tabIndex, setTabIndex] = useState<number>(0);
   return (
     <Animate>
+      
       <section className="w-full min-h-screen pb-12 bg-dest-mobile md:bg-dest-tablet lg:bg-dest-desktop bg-no-repeat bg-center bg-cover text-white">
-        <Navbar />
-        <div className="w-10/12 mx-auto text-center relative">
-          <h4 className=" tracking-widest font-barlow my-4 md:mb-8 md:text-start md:text-[20px] lg:tracking-[4.8px]">
+        
+        <div className="w-[80%] relative mx-auto pt-24 md:pt-40 text-center">
+          <h4 className=" tracking-widest font-barlow mb-4 md:mb-8 lg:mb-20 md:text-start md:text-[20px] lg:tracking-[4.8px]">
             <span className=" font-bold opacity-25 mr-1 tracking-widest">
               01
             </span>{" "}
             PICK YOUR DESTINATION
           </h4>
           <div className=" text-center ">
-            <div className="flex font-barlow text-sm lg:text-base gap-4 md:gap-8 absolute top-[260px] md:top-[490px] left-1/2 lg:left-[78%] xl:left-[70%] lg:top-[100px] transform  -translate-x-1/2 ">
+            <div className="flex font-barlow text-sm lg:text-base gap-4 md:gap-8 absolute top-[360px] md:top-[650px] left-1/2 lg:left-[78%] xl:left-[70%] lg:top-[300px] transform  -translate-x-1/2 ">
               {jsonData.destinations.map((dest, index) => (
                 <h4
                   className={` uppercase cursor-pointer ${
@@ -39,11 +40,11 @@ const Destination = () => {
             {jsonData.destinations.map((dest, index) => (
               <div
                 key={index}
-                className=" grid grid-cols-1 lg:grid-cols-2 lg:gap-20 justify-items-center"
+                className=" grid grid-cols-1 lg:grid-cols-2 lg:gap-10 justify-items-center"
               >
                 {index == tabIndex && (
                   <Image
-                    className=" md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]"
+                    className=" md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px]"
                     src={dest.images.png}
                     alt={dest.name}
                     width={200}

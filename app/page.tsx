@@ -6,10 +6,11 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <Animate>
+      
       <main className="bg-home-mobile md:bg-home-tablet lg:bg-home-desktop bg-no-repeat bg-center h-screen w-full bg-cover text-white">
-        <Navbar />
-        <div className=" w-9/12 mx-auto mt-8 md:mt-[120px] lg:mt-[100px] text-center lg:text-start">
-          <h2 className=" text-secondary font-barlow text-base md:text-[28px]">
+        
+        <div className=" w-[80%] mx-auto pt-24 md:pt-40 lg:pt-56 text-center lg:text-start">
+          <h2 className=" text-secondary font-barlow text-base md:text-[28px] tracking-widest">
             SO, YOU WANT TO TRAVEL TO
           </h2>
           <div className="flex flex-col gap-10 md:gap-40 lg:gap-10 lg:flex-row justify-center md:justify-between items-center">

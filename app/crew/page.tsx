@@ -6,6 +6,9 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 import Animate from "../components/Animate";
 
 const Crew = () => {
@@ -32,9 +35,10 @@ const Crew = () => {
   };
   return (
     <Animate>
-      <section className="w-full min-h-screen pb-12 bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop bg-no-repeat bg-center bg-cover text-white scroll-smooth">
-        <Navbar />
-        <div className=" w-10/12 mx-auto pb-12">
+      <section className="w-full  h-full min-h-screen pb-12 bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop bg-no-repeat bg-center bg-cover text-white scroll-smooth">
+     
+        
+        {/* <div className=" w-10/12 mx-auto pb-12">
           <h4 className=" text-center tracking-[2.7px] font-barlow my-4 md:mb-8 md:text-start md:text-[20px] lg:tracking-[4.8px]">
             <span className=" font-bold opacity-25 mr-1">02</span> MEET YOUR
             CREW
@@ -63,7 +67,7 @@ const Crew = () => {
               </div>
             ))}
           </Slider>
-        </div>
+        </div> */}
       </section>
     </Animate>
   );
